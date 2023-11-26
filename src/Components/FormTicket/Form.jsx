@@ -60,7 +60,7 @@ const MyForm = () => {
   render={({ field }) => (
     <TextField
     required
-    color="warning"
+    // color="warning"
     focused={theme === "dark"}
       {...field} 
     variant="outlined"
@@ -89,7 +89,7 @@ const MyForm = () => {
   render={({ field }) => (
     <TextField 
     required
-     color="warning"
+    //  color="warning"
      focused={theme === "dark" ? true : false}
       {...field} 
       multiline
@@ -121,11 +121,10 @@ const MyForm = () => {
     inputProps={{
         style: { color: theme === "dark" ? 'white' : 'black' }
       }}
-      style={{width:"60%"}} color="warning" focused={theme === "dark" ? true : false} >
+      style={{width:"60%"}}  focused={theme === "dark" ? true : false} >
       <InputLabel>Brand</InputLabel>
       <Select
       required
-       color="warning"
        focused 
       label="Brand"
         {...field} // Spread the field props into the Select component
@@ -163,7 +162,6 @@ const MyForm = () => {
         <Controller name="Module" control={control}
   render={({ field }) => (
     <FormControl     
-     color="warning"
      focused={theme === "dark" ? true : false}  style={{width:"60%"}}>
       <InputLabel>Module</InputLabel>
       <Select
