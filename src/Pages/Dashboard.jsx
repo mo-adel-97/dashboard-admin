@@ -18,6 +18,7 @@ import Loading from "./LoadingPage/Loading";
 import { useEffect, useState } from "react";
 import { ThemeContext } from "../Components/ThemeContect/ThemeContext";
 import { useContext } from "react";
+import { Zoom } from "react-reveal";
 const Blank = () => {
   const [loading, setLoading] = useState(true)
 
@@ -40,6 +41,7 @@ const Blank = () => {
     return (
         <div style={{backgroundColor:theme === "dark" ? 'black' : '#f0f0f0',height:"100vh" }}>
             <Header />
+            <Zoom duration={1500} delay={100}>
             <div className="grid-container">
             {dataArray.map((item) => (
                         <div class="grid-item item1">
@@ -100,6 +102,7 @@ const Blank = () => {
                   <ApexChartOverview />
                 </div>
             </div>
+            </Zoom>
         </div>
     )
 };

@@ -173,7 +173,7 @@ export default function PrimarySearchAppBar() {
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
             <IconButton size="large" aria-label="show 4 new mails" color="black">
-              <Badge badgeContent={4} color="error">
+              <Badge badgeContent={1} color="error">
                 <MailIcon style={{color:theme === "dark" ? 'white' : 'gray'}} />
               </Badge>
             </IconButton>
@@ -182,7 +182,7 @@ export default function PrimarySearchAppBar() {
               aria-label="show 17 new notifications"
               color="black"
             >
-              <Badge badgeContent={17} color="error">
+              <Badge badgeContent={3} color="error">
                 <NotificationsIcon  style={{color:theme === "dark" ? 'white' : 'gray'}} />
               </Badge>
             </IconButton>

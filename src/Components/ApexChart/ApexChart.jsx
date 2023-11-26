@@ -54,7 +54,6 @@ class ApexChartOverview extends React.Component {
           },
           fill: {
             opacity: 1
-          
           },
           legend: {
             position: 'top',

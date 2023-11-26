@@ -12,6 +12,8 @@ import { ThemeContext } from "../../Components/ThemeContect/ThemeContext";
 import { useContext } from "react";
 import FileUploadOutlinedIcon from '@mui/icons-material/FileUploadOutlined';
 import AddOutlinedIcon from '@mui/icons-material/AddOutlined';
+import { Slide,Zoom } from "react-reveal";
+
 const Ticket = ()=>{
 
     const { theme } = useContext(ThemeContext);
@@ -40,8 +42,12 @@ color:theme === "dark" ? 'white' : 'black'}}>
                </div>
             </div>
             <LabTabs/>
+            <Slide top duration={1500} delay={200}>
             <StatusTickets/>
+            </Slide>
+            <Zoom duration={1500} delay={200}>
             <CustomFilterPanelPosition />
+            </Zoom>
         </div>
         </>
     )
