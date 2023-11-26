@@ -10,8 +10,8 @@ function App() {
         <BrowserRouter>
             <Routes>
              <Route path='/' element={<Blank />} />
-             <Route path='/started' element={<Ticket />} />
-             <Route path='/started/addticket' element={<AddTicket />} />
+             <Route path='/tickets' element={<Ticket />} />
+             <Route path='/tickets/addticket' element={<AddTicket />} />
             </Routes>
         </BrowserRouter>
         </ThemeProvider>

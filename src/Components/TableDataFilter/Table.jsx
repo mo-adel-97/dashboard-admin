@@ -25,7 +25,7 @@ function CustomToolbar({ setFilterButtonEl }) {
 
 
 
-export default function CustomFilterPanelPosition() {
+export default function TableData() {
   const { theme } = useContext(ThemeContext);
 
     const columns = [

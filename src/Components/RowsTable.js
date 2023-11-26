@@ -7,8 +7,8 @@ import image2 from "../Images/administrator.png"
 
 export const rows = [
     {id:1,ID: "1",Name:"mohamed adel",Brand:{
-         Name:"mohamed adel",
-          track: "Front-end Developer",
+         Name:"C-Pay",
+          track: "Payment Module",
           URLbrand:image3
     },Requester:{
         firstName: "mohamed",
@@ -29,8 +29,8 @@ export const rows = [
         ID: "2",
         Name:"Ahmed Ali",
         Brand: {
-        Name:"Ahmed Ali",
-        track: "UI/UX Designer",
+          Name:"LMS",
+          track: "Reports",
         URLbrand: image4
         },
         Requester: {
@@ -57,8 +57,8 @@ export const rows = [
             ID: "3",
             Name:"sayed Ali",
             Brand: {
-         Name:"sayed Ali",
-            track: "Marketing Specialist",
+              Name:"C-Pay",
+              track: "Payment Module",
             URLbrand: image4
             },
             Requester: {
@@ -85,8 +85,8 @@ export const rows = [
                 ID: "4",
                 Name:"Red Emad",
                 Brand: {
-                Name:"Red Emad",
-                  track: "UI/UX Designer",
+                  Name:"LMS",
+                  track: "Reports",
                   URLbrand: image4,
                 },
                 Requester: {
@@ -108,8 +108,8 @@ export const rows = [
                 Responsive: 75,
                 Date: "12/10/2022",
               },  {id:5,ID: "5",Brand:{
-                Name:"Ahmed hossam",
-                  track: "Front-end Developer",
+                Name:"C-Pay",
+                track: "Payment Module",
                   URLbrand:image3
             },Requester:{
                 firstName: "mohamed",
@@ -130,8 +130,8 @@ export const rows = [
                 ID: "6",
                 Name:"Ahmed Ali",
                 Brand: {
-                Name:"Ahmed Ali",
-                track: "UI/UX Designer",
+                  Name:"C-Pay",
+                  track: "Payment Module",
                 URLbrand: image4
                 },
                 Requester: {
@@ -158,8 +158,8 @@ export const rows = [
                     ID: "7",
                     Name:"Khaled Ahmed",
                     Brand: {
-                    Name:"Khaled Ahmed",
-                    track: "Marketing Specialist",
+                      Name:"LMS",
+                      track: "Reports",
                     URLbrand: image4
                     },
                     Requester: {
@@ -186,8 +186,8 @@ export const rows = [
                         ID: "8",
                         Name:"Ahmed Ali",
                         Brand: {
-                            Name:"Ahmed Ali",
-                          track: "UI/UX Designer",
+                          Name:"C-Pay",
+                          track: "Payment Module",
                           URLbrand: image4,
                         },
                         Requester: {

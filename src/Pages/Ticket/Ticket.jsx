@@ -6,7 +6,7 @@ import KeyboardArrowRightOutlinedIcon from '@mui/icons-material/KeyboardArrowRig
 import { Button } from "@mui/material";
 import StatusTickets from "../../Components/StatusTikets/StatusTickets";
 import LabTabs from "../../Components/URLS";
-import CustomFilterPanelPosition from "../../Components/TableDataFilter/Table";
+import TableData from "../../Components/TableDataFilter/Table";
 import { useNavigate } from "react-router-dom";
 import { ThemeContext } from "../../Components/ThemeContect/ThemeContext";
 import { useContext } from "react";
@@ -37,7 +37,7 @@ color:theme === "dark" ? 'white' : 'black'}}>
                <div style={{display:"flex"}}>
                <Button variant="outlined" style={{margin:"3px"}} startIcon={<FileUploadOutlinedIcon />} >export</Button>
                <Button onClick={()=>{
-                navigate("/started/addticket")
+                navigate("/tickets/addticket")
                }} style={{margin:"3px"}} variant="contained" startIcon={<AddOutlinedIcon />}>Add Ticket</Button>
                </div>
             </div>
@@ -46,7 +46,7 @@ color:theme === "dark" ? 'white' : 'black'}}>
             <StatusTickets/>
             </Slide>
             <Zoom duration={1500} delay={200}>
-            <CustomFilterPanelPosition />
+            <TableData />
             </Zoom>
         </div>
         </>

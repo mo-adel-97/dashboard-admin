@@ -24,25 +24,25 @@ const sidebarNavItems = [
     {
         display: 'tickets',
         icon: <DomainVerificationOutlinedIcon/>,
-        to: '/started',
-        section: 'started'
+        to: '/tickets',
+        section: 'tickets'
     },
     {
         display: 'customers',
         icon: <PersonOutlineOutlinedIcon/>,
-        to: '/calendar',
+        to: '/',
         section: 'calendar'
     },
     {
         display: 'Organizations',
         icon: <CorporateFareOutlinedIcon />,
-        to: '/user',
+        to: '/',
         section: 'user'
     },
     {
         display: 'Orders',
         icon:<SettingsOutlinedIcon /> ,
-        to: '/order',
+        to: '/',
         section: 'order'
     },
 ]
