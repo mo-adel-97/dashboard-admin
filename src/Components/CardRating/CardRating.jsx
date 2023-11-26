@@ -24,6 +24,7 @@ const RatingCard = ()=>{
          <Slider
             style={{color:"blue",paddingTop:"85px"}}
             disabled={false}
+            value={33}
             marks={false}
             max={100}
             min={0}

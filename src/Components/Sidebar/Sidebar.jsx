@@ -9,8 +9,11 @@ import CorporateFareOutlinedIcon from '@mui/icons-material/CorporateFareOutlined
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import Image1 from "../../Images/download.jfif";
 import Image2 from "../../Images/download2.png";
-import { Button } from '@mui/material';
 import { ThemeContext } from '../ThemeContect/ThemeContext';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import Switch from '@mui/material/Switch';
+import LightModeIcon from '@mui/icons-material/LightMode';
+import NightlightIcon from '@mui/icons-material/Nightlight';
 const sidebarNavItems = [
     {
         display: 'Dashboard',
@@ -46,7 +49,7 @@ const sidebarNavItems = [
 
 const Sidebar = () => {
     const { theme,toggleTheme } = useContext(ThemeContext);
-
+    const label = { inputProps: { 'aria-label': 'Switch demo' } };
     const [activeIndex, setActiveIndex] = useState(0);
     const [stepHeight, setStepHeight] = useState(0);
     const sidebarRef = useRef();
@@ -99,10 +102,10 @@ const Sidebar = () => {
                 ))
             }
             <br/><br/><br/><br/><br/>
-            <div style={{textAlign:"center"}}>
-             <Button onClick={toggleTheme}>
-                MOOD
-            </Button>
+            <div style={{display:"flex",justifyContent:"center"}}>
+            <NightlightIcon style={{marginTop:"5px",color:theme === "dark" ? "white" : "gray"}}  />
+              <Switch onClick={toggleTheme} {...label} defaultChecked />
+            <LightModeIcon style={{marginTop:"5px",color:theme === "dark" ? "gray" : "black"}} />
             </div>
         </div>
     </div>;

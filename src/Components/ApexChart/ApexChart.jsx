@@ -35,13 +35,13 @@ class ApexChartOverview extends React.Component {
             categories: ["Response Time", "Response Time"],
             labels: {
               style: {
-                colors: ['#CD5C5C'], // Specify your desired colors here
+                colors: ['red'], // Specify your desired colors here
               },
             },
           },yaxis: {
             labels: {
               style: {
-                colors: ['#CD5C5C'], // Specify your desired colors here
+                colors: ['red'], // Specify your desired colors here
               },
             },
           },

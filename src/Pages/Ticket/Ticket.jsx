@@ -10,6 +10,8 @@ import CustomFilterPanelPosition from "../../Components/TableDataFilter/Table";
 import { useNavigate } from "react-router-dom";
 import { ThemeContext } from "../../Components/ThemeContect/ThemeContext";
 import { useContext } from "react";
+import FileUploadOutlinedIcon from '@mui/icons-material/FileUploadOutlined';
+import AddOutlinedIcon from '@mui/icons-material/AddOutlined';
 const Ticket = ()=>{
 
     const { theme } = useContext(ThemeContext);
@@ -19,7 +21,7 @@ const navigate = useNavigate();
     return(
         <>
         <Header/>
-        <div className="Ticket" style={{backgroundColor:theme === "dark" ? 'black' : '#f0f0f0',
+        <div className="Ticket" style={{backgroundColor:theme === "dark" ? '#191919' : '#f0f0f0',
 color:theme === "dark" ? 'white' : 'black'}}>
             <div style={{display:"flex",padding:"10px"}}>
                 <HomeOutlinedIcon width="15px" height="15px"/>
@@ -31,10 +33,10 @@ color:theme === "dark" ? 'white' : 'black'}}>
                 <h3>Tickets</h3>
                </div>
                <div style={{display:"flex"}}>
-               <Button style={{margin:"3px"}} variant="outlined">Outlined</Button>
+               <Button variant="outlined" style={{margin:"3px"}} startIcon={<FileUploadOutlinedIcon />} >export</Button>
                <Button onClick={()=>{
                 navigate("/started/addticket")
-               }} style={{margin:"3px"}} variant="contained">Add Ticket</Button>
+               }} style={{margin:"3px"}} variant="contained" startIcon={<AddOutlinedIcon />}>Add Ticket</Button>
                </div>
             </div>
             <LabTabs/>

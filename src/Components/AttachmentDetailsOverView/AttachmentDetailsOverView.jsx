@@ -42,10 +42,10 @@ export default function PieChartWithPaddingAngle() {
     {ArrayFiles.map((fruit, index) => (
         <div className='FilesChild'>
         <div className='FilesChild1'>
-            {fruit.icon === "docs" ? <ArticleIcon style={{ color: "blue", width: "30px", height: "30px" }} /> 
-            : fruit.icon === "image" ? <ImageIcon style={{ color: "blue", width: "30px", height: "30px" }} /> :
-            fruit.icon === "voice"? <RecordVoiceOverIcon style={{ color: "blue", width: "30px", height: "30px" }} /> :
-            fruit.icon === "video" ? <VideoLibraryIcon style={{ color: "blue", width: "30px", height: "30px" }} /> :
+            {fruit.icon === "docs" ? <ArticleIcon style={{ color: "#0000FF", width: "30px", height: "30px" }} /> 
+            : fruit.icon === "image" ? <ImageIcon style={{ color: "#1E90FF", width: "30px", height: "30px" }} /> :
+            fruit.icon === "voice"? <RecordVoiceOverIcon style={{ color: "#CCCC00", width: "30px", height: "30px" }} /> :
+            fruit.icon === "video" ? <VideoLibraryIcon style={{ color: "#DC143C", width: "30px", height: "30px" }} /> :
             null }
         </div>
         <div className='FilesChild2'>
