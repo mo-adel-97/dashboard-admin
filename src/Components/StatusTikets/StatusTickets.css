@@ -1,0 +1,14 @@
+.statusParent{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+.status{
+   height: 100px;
+   background-color: white;
+   border-radius: 10px;
+   display: flex;
+   justify-content: space-around;
+   place-items: center;
+}

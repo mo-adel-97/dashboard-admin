@@ -1,0 +1,6 @@
+.AddTicket{
+    margin-left: 200px;
+    margin-top: 63px;
+    padding:10px;
+    height: calc(100vh - 63px);
+}

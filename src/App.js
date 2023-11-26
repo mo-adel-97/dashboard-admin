@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-
+import './App.scss';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Blank from './Pages/Dashboard';
+import { ThemeProvider } from './Components/ThemeContect/ThemeContext';
+import Ticket from './Pages/Ticket/Ticket';
+import AddTicket from './Pages/AddTickets/AddTicket';
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <ThemeProvider>
+        <BrowserRouter>
+            <Routes>
+             <Route path='/' element={<Blank />} />
+             <Route path='/started' element={<Ticket />} />
+             <Route path='/started/addticket' element={<AddTicket />} />
+            </Routes>
+        </BrowserRouter>
+        </ThemeProvider>
+    );
 }
 
 export default App;

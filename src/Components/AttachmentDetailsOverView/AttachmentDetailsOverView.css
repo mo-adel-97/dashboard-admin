@@ -1,0 +1,23 @@
+.Files{
+    display: grid;
+    row-gap: 5px;
+    margin-top: 7px;
+}
+.FilesChild{
+    place-items: center;
+    width: 100%;
+    height: 65px;
+    border: 1px solid beige;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.FilesChild1{
+    text-align: center;
+}
+.FilesChild2{
+    text-align: left;
+}
+.FilesChild3{
+    text-align: right;
+}

@@ -1,0 +1,11 @@
+.Ticket{
+    margin-left: 200px;
+    margin-top: 63px;
+    min-height: calc(100vh - 63px);
+}
+.Action{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
