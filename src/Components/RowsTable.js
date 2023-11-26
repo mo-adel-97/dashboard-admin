@@ -15,7 +15,8 @@ export const rows = [
          lastName: "adel",
           track: "Front-end Developer",
           URL: image1,
-    },Assign:{
+    },AssignName:"salem mohamed"
+    ,Assign:{
         firstNameCom: "salem",
          lastNameCom: "mohamed",
           trackCom: "Support team at classera",
@@ -28,6 +29,7 @@ export const rows = [
         id: 2,
         ID: "2",
         Name:"Ahmed Ali",
+        BrandNam:"LMS",
         Brand: {
           Name:"LMS",
           track: "Reports",
@@ -38,7 +40,7 @@ export const rows = [
         lastName: "Ali",
         track: "UI/UX Designer",
         URL: image2
-        },
+        },AssignName:"Sarah Johnson",
         Assign: {
         firstNameCom: "Sarah",
         lastNameCom: "Johnson",
@@ -56,6 +58,7 @@ export const rows = [
             id: 3,
             ID: "3",
             Name:"sayed Ali",
+            BrandNam:"C-Pay",
             Brand: {
               Name:"C-Pay",
               track: "Payment Module",
@@ -66,7 +69,7 @@ export const rows = [
             lastName: "Doe",
             track: "Marketing Specialist",
             URL: image2
-            },
+            },AssignName:"Emily Smith",
             Assign: {
             firstNameCom: "Emily",
             lastNameCom: "Smith",
@@ -84,6 +87,7 @@ export const rows = [
                 id: 4,
                 ID: "4",
                 Name:"Red Emad",
+                BrandNam:"LMS",
                 Brand: {
                   Name:"LMS",
                   track: "Reports",
@@ -94,7 +98,7 @@ export const rows = [
                   lastName: "Ali",
                   track: "UI/UX Designer",
                   URL: image2,
-                },
+                },AssignName:"Sarah Johnson",
                 Assign: {
                   firstNameCom: "Sarah",
                   lastNameCom: "Johnson",
@@ -116,7 +120,7 @@ export const rows = [
                  lastName: "adel",
                   track: "Front-end Developer",
                   URL: image1,
-            },Assign:{
+            },AssignName:"salem mohamed",Assign:{
                 firstNameCom: "salem",
                  lastNameCom: "mohamed",
                   trackCom: "Support team at classera",
@@ -129,6 +133,7 @@ export const rows = [
                 id: 6,
                 ID: "6",
                 Name:"Ahmed Ali",
+                BrandNam:"C-Pay",
                 Brand: {
                   Name:"C-Pay",
                   track: "Payment Module",
@@ -139,7 +144,7 @@ export const rows = [
                 lastName: "Ali",
                 track: "UI/UX Designer",
                 URL: image2
-                },
+                },AssignName:"Sarah Johnson",
                 Assign: {
                 firstNameCom: "Sarah",
                 lastNameCom: "Johnson",
@@ -157,6 +162,7 @@ export const rows = [
                     id: 7,
                     ID: "7",
                     Name:"Khaled Ahmed",
+                    BrandNam:"LMS",
                     Brand: {
                       Name:"LMS",
                       track: "Reports",
@@ -167,7 +173,7 @@ export const rows = [
                     lastName: "Doe",
                     track: "Marketing Specialist",
                     URL: image2
-                    },
+                    },AssignName:"Emily Smith",
                     Assign: {
                     firstNameCom: "Emily",
                     lastNameCom: "Smith",
@@ -185,6 +191,7 @@ export const rows = [
                         id: 8,
                         ID: "8",
                         Name:"Ahmed Ali",
+                        BrandNam:"C-Pay",
                         Brand: {
                           Name:"C-Pay",
                           track: "Payment Module",
@@ -195,7 +202,7 @@ export const rows = [
                           lastName: "Ali",
                           track: "UI/UX Designer",
                           URL: image2,
-                        },
+                        },AssignName:"Sarah Johnson",
                         Assign: {
                           firstNameCom: "Sarah",
                           lastNameCom: "Johnson",

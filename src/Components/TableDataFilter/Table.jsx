@@ -30,7 +30,7 @@ export default function TableData() {
 
     const columns = [
         { field: 'ID', headerName: 'ID', width: 50 },
-        { field: 'Name', headerName: 'Brand', renderCell: ({ row }) => (
+        { field: 'BrandNam', headerName: 'Brand', renderCell: ({ row }) => (
             <div style={{display:"flex"}}>
                 <div>
                 <img alt="mohamed" src={row.Brand.URLbrand} style={{width: 55, height: 40}} />
@@ -41,7 +41,7 @@ export default function TableData() {
                 </div>
             </div>
           ) , width: 170},
-        { field: 'Requester', headerName: 'Requester',
+        { field: 'Name', headerName: 'Requester',
         renderCell: ({ row }) => (
             <div style={{display:"flex"}}>
                 <div>
@@ -53,7 +53,7 @@ export default function TableData() {
                 </div>
             </div>
           ),width: 150 },
-        { field: 'Assign', headerName: 'Assign',renderCell: ({ row }) => (
+        { field: 'AssignName', headerName: 'Assign',renderCell: ({ row }) => (
             <div style={{display:"flex"}}>
                 <div>
                 <Avatar alt="mohamed" src={row.Assign.URLCom} sx={{ bgcolor: 'red',width: 28, height: 28}} />
